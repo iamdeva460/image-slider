@@ -1,0 +1,80 @@
+.App h1{
+    color: azure;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #fff , 0 0 10px #fff ,0 0 15px #0073e6,0 0 20px #0073e6,
+    0 0 25px #0073e6, 0 0 30px #0073e6,0 0 35px #0073e6 ;
+}
+
+.Container{
+    width: 98%;
+    height: 75vh;
+    max-width:1600px;
+    user-select: none;
+    box-shadow: 0px 3px 3px lightslategray;
+    margin: 0 auto;
+    
+}
+
+.slideShow-Container{
+    width: 98%;
+    height: 90%;
+    background-color: lightgray;
+    position: relative;
+
+}
+
+.previous{
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 0 5px #fff , 0 0 10px #fff ,0 0 15px #0073e6,0 0 20px #0073e6,
+    0 0 25px #0073e6, 0 0 30px #0073e6,0 0 35px #0073e6 ; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    width: 50px;
+    background-color:red;
+    transition: background-color 0.5s;
+    height: 72px;
+    top: 50%;
+    transform: translate(-50%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.previous:hover{
+    background-color: black;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.next{ font-size: 30px;
+    color: white;
+    text-shadow: 0 0 5px #fff , 0 0 10px #fff ,0 0 15px #0073e6,0 0 20px #0073e6,
+    0 0 25px #0073e6, 0 0 30px #0073e6,0 0 35px #0073e6 ; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    width: 50px;
+    background-color:red;
+    transition: background-color 0.5s;
+    height: 72px;
+    top: 50%;
+    right: 0;
+    left: auto;
+    transform: translate(-50%);
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.next:hover{
+    background-color: black;
+    cursor: pointer;
+    font-size: 40px;
+}
